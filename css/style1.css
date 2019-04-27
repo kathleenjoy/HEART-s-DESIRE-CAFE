@@ -1,0 +1,351 @@
+a{
+	text-decoration:none;
+}
+.menu{
+	display: grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:20px;
+}
+li{
+	color:white;
+	text-align:center;
+	padding:10px;
+	font-family:Verdana;
+	list-style:none;
+	font-size:20px;
+	background:#B22222;
+	border-radius:50px;
+}
+.container{
+	padding:0;
+	margin: 10px;
+}
+body{
+	text-align:center;
+	background-color: tan;
+	height: 200vh;
+	margin:0;
+}
+.txt{
+	margin-bottom: 10px;	
+	background: indianred;
+}
+.htt{
+	margin-bottom: 10px;	
+	padding:5px;
+	grid-template-columns: 1fr 2fr;
+	display:grid;
+	background: #8B0000;
+}
+
+h1{
+	font-family: Bookman Old Style;
+	font-size: 55px;
+	color: #FFEBCD;
+}
+h2{
+font-size:27px;
+font-family: Comic Sans MS;
+color:#DEB887;
+}
+.footer{
+	padding: 2px;
+	background:#8B0000;
+	text-align: center;
+	padding-right: 20px;
+	color:white;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.n1{
+	text-align: center;
+}
+.d1{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 40vh;
+}
+.c1{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/cloud.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left: 40px;
+}
+.c2{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/capp.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:25px;
+}
+.c3{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/americano.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+}
+.c4{
+	grid-gap: 10px;
+	border:2px black solid;
+	height:42vh;
+	background-image: url(../images/iced.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+}
+
+.n2{
+	text-align: center;
+}
+.d2{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 40vh;
+}
+.f1{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/double.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:40px;
+	
+}
+.f2{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/caramel.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:25px;
+	
+}
+.f3{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/vanilla.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+.f4{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/ultra.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+
+.n3{
+	text-align: center;
+}
+.d3{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 40vh;
+}
+.t1{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/black.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:40px;
+	
+}
+.t2{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/tango.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:25px;
+	
+}
+.t3{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/colada.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+}
+
+.t4{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/green.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+
+.n4{
+	text-align: center;
+}
+.d4{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 40vh;
+}
+.p1{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/iced.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:40px;
+	
+}
+.p2{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/iced.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:25px;
+	
+}
+.p3{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/iced.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+.p4{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/iced.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+
+.n5{
+	text-align: center;
+}
+.d5{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 40vh;
+}
+.k1{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/loaf.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:40px;
+	
+}
+.k2{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/classic.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:25px;
+	
+}
+.k3{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/apple.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+	
+}
+.k4{
+	grid-gap: 10px;
+	border:2px black solid;
+	height: 42vh;
+	background-image: url(../images/smores.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42vh;
+	margin-left:15px;
+}
+#qwer{
+	color: black;
+	font-size: 45px;
+}
+li:hover{
+	background:pink;
+}

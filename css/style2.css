@@ -1,0 +1,189 @@
+a{
+	text-decoration:none;
+}
+.menu{
+	display: grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:20px;
+}
+li{
+	color:white;
+	text-align:center;
+	padding:10px;
+	font-family:Verdana;
+	list-style:none;
+	font-size:20px;
+	background:#B22222;
+	border-radius:50px;
+}
+.container{
+	padding:0;
+	margin: 10px;
+}
+body{
+	text-align:center;
+	background-color: tan;
+	margin:0;
+}
+.txt{
+	margin-bottom: 10px;	
+	background: indianred;
+}
+.htt{
+	margin-bottom: 10px;	
+	padding:5px;
+	grid-template-columns: 1fr 2fr;
+	display:grid;
+	background:#8B0000;
+}
+
+h1{
+	font-family: Bookman Old Style;
+	font-size: 55px;
+}
+
+h2{
+font-size:27px;
+font-family: Comic Sans MS;
+color:#DEB887;
+}
+
+.footer{
+	padding: 2px;
+	background:#8B0000;
+	text-align: center;
+	padding-right: 20px;
+	color:white;
+	font-size: 19px;
+	margin-top: 30px;
+}
+
+.text2{
+	margin-bottom: 10px;	
+	background: #B22222;
+}
+
+.Slideshow{
+	position: relative;
+	height:50vh;
+	width:98vw;
+	margin:30px auto;
+	overflow: hidden;
+}
+.slide{
+	position:absolute;
+	height:110%;
+	width:110%;
+	opacity: 0;
+}
+
+.slide1{
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation:kath 20s linear infinite;
+}
+
+.slide2{
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation:kath 20s linear infinite 5s;
+}
+
+.slide3{
+	background-image: url(../images/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation:kath 20s linear infinite 10s;
+}
+
+.slide4{
+	background-image: url(../images/4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation:kath 20s linear infinite 15s;
+}
+@keyframes kath{
+	0%{
+		opacity: 0;
+		transform: scale(1);
+	}
+
+	5%{
+		opacity: 1;
+	}
+
+	25%{
+		opacity: 1;
+	}
+
+	30%{
+		transform: scale(1.2);
+		opacity:0;
+	}
+}
+
+.Des{
+	margin-bottom: 10px;	
+	background: #B22222;
+	padding: 50px;
+}
+
+.own{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 45vh;
+	padding: 10px;
+	grid-gap: 10px;
+}
+
+.Pic{
+	grid-gap: 10px;
+	height: 45vh;
+	background-image: url(../images/pic.jpg);
+	background-size:285px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.info{
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+	height: 30vh;
+}
+
+.F1{
+	height: 20vh;
+	grid-gap: 10px;
+	
+}
+.F2{
+	height: 20vh;
+	grid-gap: 10px;
+	
+}
+p{
+	font-family: Comic Sans MS;
+	font-size: 23px;
+}
+h1{
+	font-family: Bookman Old Style;
+	font-size: 55px;
+	color: #FFEBCD;
+	text-align:center;
+}
+#qwer{
+	color:black;
+	font-size: 45px;
+}
+#ert{
+	color: black;
+}
+li:hover{
+	background:pink;
+}
